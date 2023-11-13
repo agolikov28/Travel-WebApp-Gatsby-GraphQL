@@ -1,0 +1,30 @@
+[
+    {
+        "img": "../assets/images/desert-1.jpg",
+        "alt": "Moapa Valley, Nevada",
+        "title": "Moapa Valley, Nevada",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/italy-1.jpg",
+        "alt": "Venezia, Italy",
+        "title": "Venezia, Italy",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/greece-1.jpg",
+        "alt": "Santorini, Greece",
+        "title": "Santorini, Greece",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/desert-2.jpg",
+        "alt": "Page, Arizona",
+        "title": "Page, Arizona",
+        "button": "View Destination"
+
+    }
+]
