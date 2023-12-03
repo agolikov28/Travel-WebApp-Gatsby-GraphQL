@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaPaperPlane} from 'react-icons/fa'
 import { menuData } from "../data/MenuData"
 import { Button } from "./Button"
 import { useState, useEffect } from "react"
@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <Nav active={scroll} click={click}>
-      <NavLink to='/'>VisaVentures</NavLink>
+      <NavLink to='/'> <h1><FaPaperPlane/>&ensp;VisaVentures</h1></NavLink>
       <MobileIcon onClick={handleClick}>
         {click ? <FaTimes/> : <FaBars/>}
       </MobileIcon>
@@ -56,6 +56,7 @@ const Nav = styled.nav`
   padding: 0.5rem calc((100vw - 1300px) / 2);
   z-index: 100;
   position: relative;
+  
 
   @media screen and (max-width: 768px){
     background: ${({click}) => click ? '#f26a2e' : "transparent"};
@@ -73,6 +74,10 @@ const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+
+  h1{
+    color: #fff;
+}
 
   @media screen and (max-width: 768px){
     text-align: center;

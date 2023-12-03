@@ -1,15 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import {Link} from 'gatsby'
+import {FaPaperPlane} from 'react-icons/fa'
+
 
 const Footer = () => {
   return (
     <FooterContainer>
-
         <FooterLinksWrapper>
             <FooterDesc>
                 <h1>VisaVentures</h1>
-                <p>Creating Travel Experiences For All</p>
+                <p>Creating Travel Experiences For All&ensp;<FaPaperPlane/></p>
             </FooterDesc>
             <FooterLinkItems>
                 <FooterLinkTitle>Contact Us</FooterLinkTitle>

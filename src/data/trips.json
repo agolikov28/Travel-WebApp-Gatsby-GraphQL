@@ -1,6 +1,6 @@
 [
     {
-        "img": "../assets/images/desert-1.jpg",
+        "img": "../assets/images/desert-2.jpg",
         "alt": "Moapa Valley, Nevada",
         "title": "Moapa Valley, Nevada",
         "button": "View Destination"
@@ -14,6 +14,27 @@
 
     },
     {
+        "img": "../assets/images/mountain-1.jpg",
+        "alt": "Gokyo Ri, Nepal",
+        "title": "Gokyo Ri, Nepal",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/hotel-1.jpg",
+        "alt": "Prague, Czechia",
+        "title": "Prague, Czechia",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/france-1.jpg",
+        "alt": "Paris, France",
+        "title": "Paris, France",
+        "button": "View Destination"
+
+    },
+    {
         "img": "../assets/images/greece-1.jpg",
         "alt": "Santorini, Greece",
         "title": "Santorini, Greece",
@@ -21,9 +42,16 @@
 
     },
     {
-        "img": "../assets/images/desert-2.jpg",
-        "alt": "Page, Arizona",
-        "title": "Page, Arizona",
+        "img": "../assets/images/germany-1.jpg",
+        "alt": "Tauber, Germany",
+        "title": "Tauber, Germany",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/desert-1.jpg",
+        "alt": "Aqaba, Jordan",
+        "title": "Aqaba, Jordan",
         "button": "View Destination"
 
     }

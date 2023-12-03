@@ -59,6 +59,9 @@ const Trips = ({heading}) => {
 
     return (
         <ProductsContainer>
+            <TopLine>
+            Discover
+        </TopLine>
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductsWrapper>{getTrips(data)}</ProductsWrapper>
         </ProductsContainer>
@@ -68,17 +71,23 @@ const Trips = ({heading}) => {
 export default Trips
 
 const ProductsContainer = styled.div `
-  min-height: 100vh;
+  height: 100%;
   padding: 5rem calc((100vw - 1300px) / 2);
   color: #fff;
 `
-const ProductsHeading = styled.div `
+const ProductsHeading = styled.h1 `
   font-size: clamp(1.2rem, 5vw, 3rem);
   text-align: center;
   margin-bottom: 5rem;
   color: #000;
 `
-
+const TopLine = styled.p `
+    color: #077bf1;
+    font-size: 1rem;
+    padding-left: 2rem;
+    margin-bottom: 0.75rem;
+    text-align:center;
+ `
 const ProductsWrapper = styled.div `
     display: grid;
     grid-template-columns: repeat(4, 1fr);

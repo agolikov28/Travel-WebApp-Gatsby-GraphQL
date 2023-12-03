@@ -13,11 +13,11 @@ const StatsData = [
     {
         icon: (<MdAirplanemodeActive/>),
         title: "1 Million Trips Made",
-        desc: "Over 1 million trips completed last year"
+        desc: "Over 1 million trips completed this year"
     },
     {
         icon: (<MdTimer/>),
-        title: "Fastest Customer Support",
+        title: "Fast Support",
         desc: "Our virtual support team is available 24/7"
     },
     {
